@@ -1,3 +1,79 @@
 body {
   background-color: #1B1A3E;
 }
+
+.topnav {
+  font-family: Proxima Nova Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo-container {
+  float: left;
+  display: inline;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.searchbar {
+  position: relative;
+  float: left;
+  width: 100%;
+  max-width: 550px;
+  margin-left: 20px;
+}
+
+input[type=text] {
+  width: 100%;
+  background-color: #484364;
+  box-sizing: border-box;
+  border: 1px solid transparent;
+  padding: 8px 35px 8px 10px;
+  border-radius: 4px;
+  opacity: .8;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: .4px;
+  color: white;
+  text-shadow: inherit;
+  -webkit-text-fill-color: inherit;
+  max-width: 550px;
+  align-items: center;
+  flex: 1;
+  justify-content: space-around;
+}
+
+.button {
+  text-align: center;
+  display: inline-block;
+  padding: 7px 14px 10px 9px;
+  text-transform: none;
+  border-radius: 3px;
+  font-size: 15px;
+  font-weight: 700;
+  position: relative;
+  width: auto;
+  background-color: #1bb76e;
+  box-shadow: 0 6px 10px 0 rgb(27 28 30 / 31%);
+  color: #fff;
+  margin-left: 20px;
+}
+
+.buttonAd {
+  background: #6432f9;
+  box-shadow: 0 3px 4px rgb(0 0 0 / 12%);
+  margin-left: 20px;
+  justify-content: flex-end;
+}
+
+.signin {
+  margin: auto 24px auto 8px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 14px 15px rgb(27 28 30 / 31%);
+  margin-left: 20px;
+}
